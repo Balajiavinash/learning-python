@@ -6,13 +6,37 @@
 
 
 
- 
+
+#if statement
+is_hot = False
+is_cold=True
+if is_hot:
+    print("It's a hot day outside!")
+elif is_cold:
+    print("Wear good cloths")    
+else:
+    print("Not a hot day.")
+print("python is good language")
+
+#import math
+# math functions
+#x = 2.9
+#print(abs(-2.9))
+#x = 3.9
+#print(round(x))
+
+
+#x = (2+3) * 10-3
+#print(x)
+#parenthesis 
+# exponential 2**3 = 2 power 3
+# multiplication or division, addition or substraction
 
 #  Arthemetic operations
-print(20 / 3)
-print(20//3)
-print (20%3)
-print(20**3)
+#print(20 / 3)
+#print(20//3)
+#print (20%3)
+#print(20**3)
 
 #name = 'Python for beginners'
 #len()
