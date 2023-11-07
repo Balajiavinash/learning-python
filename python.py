@@ -7,16 +7,40 @@
 
 
 
-#if statement
-is_hot = False
-is_cold=True
-if is_hot:
-    print("It's a hot day outside!")
-elif is_cold:
-    print("Wear good cloths")    
+
+
+
+#Comparison Operation
+temperature = 35
+
+if temperature > 30:
+  print ("Its a hot day")
 else:
-    print("Not a hot day.")
-print("python is good language")
+  print ("Its not hot day")
+
+#Logical_operational 
+# AND = two statement is true or fasle
+# OR = one of the statement can be true or false
+# NOT = one statement is true and another statement is false
+  
+#if statement
+#price = 1000000
+#has_good_credit = True
+#if has_good_credit:
+#    down_payment = 0.1* price
+#else:
+#    down_payment = 0.2 * price
+#print(f"Down_payment: {down_payment}")
+
+#is_hot = False
+#is_cold=True
+#if is_hot:
+#    print("It's a hot day outside!")
+#elif is_cold:
+#    print("Wear good cloths")    
+#else:
+#    print("Not a hot day.")
+#print("python is good language")
 
 #import math
 # math functions
