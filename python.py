@@ -7,17 +7,38 @@
 
 
 
+#Weight Converter Program
+weight = input("Weight:")
+unit = input('(L) for lbs and (W) for Weight:')
 
-
-
-#Comparison Operation
-temperature = 35
-
-if temperature > 30:
-  print ("Its a hot day")
+if unit.upper() == "L":
+  Your = weight * 0.45
+  print(f"You are {Your} weight ")
 else:
-  print ("Its not hot day")
+ Your =  weight / 0.45
+ print (f"You are {Your} weight")
+  
+  
 
+
+
+
+
+#Comparison Operation         | > Less than 
+#temperature = 35             | ==  Equal to
+#                             | != Not equal to
+#if temperature > 30:         | =  its does not compare 
+#  print ("Its a hot day")    | <=  Less than equal
+#else:                        | >= Greater than equal
+#  print ("Its not hot day")  | >  Greater than
+    
+#name = input("Enter your name")
+
+#if len(name) < 3:
+#  print (f"{name}, your name is too short.")
+#else:
+#  print (f"Hello {name}")
+                 
 #Logical_operational 
 # AND = two statement is true or fasle
 # OR = one of the statement can be true or false
