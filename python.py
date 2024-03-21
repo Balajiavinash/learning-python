@@ -4,19 +4,19 @@
 
 
 
-
+print ("Flynava")
 
 
 #Weight Converter Program
-weight = input("Weight:")
-unit = input('(L) for lbs and (W) for Weight:')
+#weight = input("Weight:")
+#unit = input('(L) for lbs and (W) for Weight:')
 
-if unit.upper() == "L":
-  Your = weight * 0.45
-  print(f"You are {Your} weight ")
-else:
- Your =  weight / 0.45
- print (f"You are {Your} weight")
+#if unit.upper() == "L":
+#  Your = weight * 0.45
+#  print(f"You are {Your} weight ")
+#else:
+# Your =  weight / 0.45
+# print (f"You are {Your} weight")
   
   
 
